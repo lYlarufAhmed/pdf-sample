@@ -18,14 +18,14 @@ function App() {
                     <div className="InputContainer">
                         <input id={'Left-Upload'} onInput={handleFileInput} type={'file'}/>
                     </div>
-                    <textarea className={'TextArea'}>XML Preview</textarea>
+                    <textarea className={'TextArea'} defaultValue={'XML Preview'}/>
                 </div>
                 <div className="Right">
                     <h4>Left Right</h4>
                     <div className="InputContainer">
                         <input id={'Right-Upload'} onInput={handleFileInput} type={'file'}/>
                     </div>
-                    <textarea className={'TextArea'}>XML Preview</textarea>
+                    <textarea className={'TextArea'} defaultValue={'XML Preview'}/>
                 </div>
             </div>
         </div>
